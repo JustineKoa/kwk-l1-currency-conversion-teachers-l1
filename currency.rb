@@ -46,23 +46,23 @@ puts "8. AUD to USD"
 
 # choice = gets.chomp().to_i
 
-case choice
-when 1
-  puts usd_to_eur(amount)
-when 2
-  puts usd_to_jpy(amount)
-when 3
-  puts usd_to_gbp(amount)
-when 4
-  puts usd_to_aud(amount)
-when 5
-  puts eur_to_usd(amount)
-when 6
-  puts jpy_to_usd(amount)
-when 7
-  puts gbp_to_usd(amount)
-when 8
-  puts aud_to_usd(amount)
-else
-  puts "Invalid input, exiting..."
-end
+# case choice
+# when 1
+#   puts usd_to_eur(amount)
+# when 2
+#   puts usd_to_jpy(amount)
+# when 3
+#   puts usd_to_gbp(amount)
+# when 4
+#   puts usd_to_aud(amount)
+# when 5
+#   puts eur_to_usd(amount)
+# when 6
+#   puts jpy_to_usd(amount)
+# when 7
+#   puts gbp_to_usd(amount)
+# when 8
+#   puts aud_to_usd(amount)
+# else
+#   puts "Invalid input, exiting..."
+# end
