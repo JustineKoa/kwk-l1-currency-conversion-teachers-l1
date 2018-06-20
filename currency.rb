@@ -12,7 +12,7 @@ def usd_to_jpy(dollar)
 end
 
 def jpy_to_usd(yen)
-  return yen * 0.0091
+  return yen / 110.13
 end
 
 def usd_to_gbp(dollar)
@@ -20,7 +20,7 @@ def usd_to_gbp(dollar)
 end
 
 def gbp_to_usd(pound)
-  return pound * 1.32
+  return pound / 0.76
 end
 
 def usd_to_aud(dollar)
@@ -28,7 +28,7 @@ def usd_to_aud(dollar)
 end
 
 def aud_to_usd(aust_dollar)
-  return aust_dollar * 0.74
+  return aust_dollar / 1.35
 end
 
 puts "How much money do you want to convert?"
