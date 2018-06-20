@@ -4,7 +4,7 @@ def usd_to_eur(dollar)
 end
 
 def eur_to_usd(euro)
-  return euro * 1.16
+  return euro * 1.1627907
 end
 
 def usd_to_jpy(dollar)
