@@ -22,14 +22,14 @@ describe "Challenge 2: All currency conversion methods" do
   end
 end
 
-describe "Challenge 3: CLI menu for currency input" do
-
-  it "should let a user choose an amount to convert and a currency" do
-    puts ""
-    puts "Enter a test value between 1 and 8 twice to test:"
-    expectation = expect {
-      menu_input
-    }
-    expectation.to output(/Pick from the following menu:[\s\S]*?1. USD to EUR/).to_stdout, "Make sure each line of text in the command line is spelled correctly"
-  end
-end
+# describe "Challenge 3: CLI menu for currency input" do
+#
+#   it "should let a user choose an amount to convert and a currency" do
+#     puts ""
+#     puts "Enter a test value between 1 and 8 twice to test:"
+#     expectation = expect {
+#       menu_input
+#     }
+#     expectation.to output(/Pick from the following menu:[\s\S]*?1. USD to EUR/).to_stdout, "Make sure each line of text in the command line is spelled correctly"
+#   end
+# end
